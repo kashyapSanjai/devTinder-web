@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       # 4. Run tests, if configured
-      # - name: Run testsf
+      # - name: Run testsfc
       #   run: npm test --if-present
 
 

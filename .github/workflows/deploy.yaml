@@ -76,7 +76,7 @@ jobs:
 
             npm run build
 
-            scp -r dist/* /var/www/html/
+            sudo scp -r dist/* /var/www/html/
 
             sudo systemctl reload nginx
 
